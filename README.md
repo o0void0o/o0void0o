@@ -1,16 +1,28 @@
-## Hi there 👋
+# Your Name
+name = "Your Name"
 
-<!--
-**o0void0o/o0void0o** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# A Few Words About You
+about = "A passionate Python developer with a love for coding and a hunger for knowledge."
 
-Here are some ideas to get you started:
+# Your Interests
+interests = [
+    "Coding in Python",
+    "Reading tech blogs",
+    "Exploring new libraries",
+    "Contributing to open-source projects"
+]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Your Favorite Quote
+quote = "The code is the truth, and the truth shall set you free."
+
+# Print Your Bio
+def print_bio():
+    print(f"### {name}")
+    print(about)
+    print("\n**Interests:**")
+    for interest in interests:
+        print(f"- {interest}")
+    print(f"\n> {quote}")
+
+# Run the Bio
+print_bio()

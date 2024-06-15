@@ -1,47 +1,33 @@
-# Python Config Bio
+```python
+name = "Etienne Swanepoel"
 
-\`\`\`python
-# Your Name
-name = "Your Name"
+about = "A passionate software developer with a love for coding and collaboration."
 
-# A Few Words About You
-about = "A passionate Python developer with a love for coding and a hunger for knowledge."
-
-# Your Interests
 interests = [
-    "Coding in Python",
-    "Reading tech blogs",
-    "Exploring new libraries",
-    "Contributing to open-source projects"
+    "all things computers",
+    "mountain biking",
+    "music",
+    "breathing"
 ]
 
-# Your Favorite Quote
-quote = "The code is the truth, and the truth shall set you free."
+stack = [
+    "java",
+    "python",
+    "sql"
+]
 
-# Print Your Bio
+motto = "do whatever makes you happy, but never at the expence of somebody elses."
+
 def print_bio():
     print(f"### {name}")
     print(about)
     print("\n**Interests:**")
     for interest in interests:
         print(f"- {interest}")
-    print(f"\n> {quote}")
+    for astack in stack:
+        print(f"- {astack}")
+    print(f"\n> {motto}")
 
-# Run the Bio
 print_bio()
-\`\`\`
 
-And when executed, it will print out your bio like this:
-
-\`\`\`
-### Your Name
-A passionate Python developer with a love for coding and a hunger for knowledge.
-
-**Interests:**
-- Coding in Python
-- Reading tech blogs
-- Exploring new libraries
-- Contributing to open-source projects
-
-> The code is the truth, and the truth shall set you free.
-\`\`\`
+```

@@ -28,6 +28,4 @@ def print_bio():
         print(f"- {astack}")
     print(f"\n> {motto}")
 
-print_bio()
-
 ```

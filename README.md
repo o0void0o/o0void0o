@@ -1,3 +1,6 @@
+# Python Config Bio
+
+\`\`\`python
 # Your Name
 name = "Your Name"
 
@@ -26,3 +29,19 @@ def print_bio():
 
 # Run the Bio
 print_bio()
+\`\`\`
+
+And when executed, it will print out your bio like this:
+
+\`\`\`
+### Your Name
+A passionate Python developer with a love for coding and a hunger for knowledge.
+
+**Interests:**
+- Coding in Python
+- Reading tech blogs
+- Exploring new libraries
+- Contributing to open-source projects
+
+> The code is the truth, and the truth shall set you free.
+\`\`\`
